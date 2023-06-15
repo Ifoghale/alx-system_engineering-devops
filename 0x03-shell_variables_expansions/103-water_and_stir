@@ -1,4 +1,2 @@
 #!/bin/bash
-echo "ibase=$water_base" \ "obase=$bestchol_base" \
-"${WATER^^}+${STIR^^}" | bc | tr 'A-F' 'a-f'
-
+echo "ibase=$water_base" \ "obase=$bestchol_base" \ "${WATER^^}+${STIR^^}" | bc | tr 'A-F' 'a-f'
